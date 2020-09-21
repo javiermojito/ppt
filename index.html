@@ -1,18 +1,14 @@
 <!DOCTYPE html> <!-- IMPORTANTE -->
 <html>
-<meta charset="UTF-8"> <!-- Caracteres especiales -->
-<title>✊✋✌</title>
-<!--(Win + :)-->
-
 <head>
+    <meta charset="UTF-8"> <!-- Caracteres especiales -->
+    <title>✊✋✌</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./main.js"></script>
 </head>
 
 <body>
-
     <h1>Piedra, Papel o Tijera</h1>
-    <p>Las reglas son: 
+    <p>Las reglas son:
         <br>
         <br>
         Piedra > Tijera <br>
@@ -21,9 +17,10 @@
     </p>
 
     <h2>Por favor, selecciona una opción</h2>
-    <button id="but-piedra">Piedra (✊)</button>
-    <button id="but-papel">Papel (✋)</button>
-    <button id="but-tijera">Tijera (✌)</button>
+
+    <button id="but-piedra" value="0">Piedra (✊)</button>
+    <button id="but-papel" value="1">Papel (✋)</button>
+    <button id="but-tijera" value="2">Tijera (✌)</button>
 
     <br>
     <br>
@@ -31,7 +28,7 @@
 
     <br>
     <br>
-    <span id="lbl-user"> EJEMPLO 1 </span>
+    <span id="lbl-user">---</span>
 
     <br>
     <br>
@@ -39,18 +36,22 @@
 
     <br>
     <br>
-    <span id="lbl-cpu"> RESULTADO MAQUINA </span>
+    <span id="lbl-cpu">---</span>
 
     <h3>Resultado</h3>
 
-    <span id="lbl-final">RESULTADO FINAL DEL JUEGO</span>
+    <span id="lbl-final">----</span>
+    
+    <br>
+    <br>
 
-    <br>
-    <br>
-    <br>
+    <h3>Marcador</h3>
     Usuario vs Máquina
     <br>
     <span id="lbl-put-user"> 0 </span> : <span id="lbl-put-cpu"> 0 </span>
 
+
+    <script src="./main.js"></script>
 </body>
+
 </html>
