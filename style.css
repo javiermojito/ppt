@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Grandstander', cursive;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+span{
+    font-weight: 400;
+}
+
+p{
+    margin-bottom: 50px;
+    font-weight: 200;
+}
+
+h2{
+    margin-bottom: 7px;
+}
+
+button{
+    color: white;
+    background-color: #4f8a8b;
+    padding: 8px 15px 8px 15px; /* ⬆ ➡ ⬇ ⬅*/
+    margin: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    font-family: 'Grandstander', cursive;
+    font-size: large;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #3e6c6d;
+}
