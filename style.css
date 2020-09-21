@@ -35,3 +35,10 @@ button:hover{
     cursor: pointer;
     background-color: #3e6c6d;
 }
+
+footer{
+    margin: 70px;
+    background-color: #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
